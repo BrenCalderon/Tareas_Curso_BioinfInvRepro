@@ -53,7 +53,7 @@ No existe una forma universal de garantizar que las inferencias no se hayan vist
 | Análisis estadístico | Errores en los estadísticos de resumen | Correr varios pipeline distintos. Tener muestras replicadas de algunos individuos para validar los SNPs |
 | Cobertura | Allele dropout: sobreestimación de la homocigosidad y Fst, subestima diversidad genómica | Balancear la cantidad de DNA en todas las muestras evita variaciones en la cobertura |
 | | Locus dropout: mutaciones en los sitios de unión causan la pérdida potencial de loci altamente variables con una alta tasa  de mutación. Genera datos faltantes | Probar varios pipelines con distintas coberturas para evaluar los resultados |
-| Ensamble *de novo* | variación sustancial en la cantidad y calidad de la recuperación de datos usando diferentes configuraciones en el probgrama utilizado | Usar duplicados o réplicas, explorar rango de valores de parámetros. |
+| Ensamble *de novo* | Variación sustancial en la cantidad y calidad de la recuperación de datos usando diferentes configuraciones en el programa utilizado | Usar duplicados o réplicas, explorar rango de valores de parámetros. |
 
 3) ¿El muestreo requiere algún diseño específico? Por ejemplo, si se quiere secuenciar un genoma de novo ¿qué individuo sería ideal? Si trabajo con trascriptomas, ¿cómo afecta el tejido, la edad, las condiciones, etc. mi muestreo?
 #### Diseño Experimental
